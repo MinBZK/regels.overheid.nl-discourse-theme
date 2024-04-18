@@ -1,0 +1,36 @@
+.hero-banner {
+  display: flex;
+  padding: 25px 150px;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--blue-secondary-light, #e5f1f9);
+}
+
+.hero-banner__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-banner__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-banner__title h2 {
+  color: #154270;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 62.4px */
+}
+
+.hero-banner__title p {
+  color: var(--blue-primary-dark, #154270);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+}

@@ -1,0 +1,39 @@
+.btn {
+  display: inline-flex;
+  height: 40px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.08px;
+
+  &.btn-icon-text {
+    padding: 8px 12px 8px 16px;
+
+    svg {
+      color: #fff;
+    }
+  }
+
+  &.btn-icon {
+    svg {
+      color: #fff;
+    }
+  }
+
+  &.btn-default {
+    color: #fff;
+    background-color: #154270;
+
+    &:hover {
+      background-color: #007bc0;
+    }
+  }
+}
